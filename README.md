@@ -40,8 +40,8 @@ This repo demonstrates an end-to-end MBA workflow using Python.
 
 ### 1) Clone the repo
 ```bash
-git clone https://github.com/your-username/market-basket-analysis-recsys.git
-cd market-basket-analysis-recsys
+git clone https://github.com/tauhid6069/market-basket-analysis-using-recommendation-system.git
+cd market-basket-analysis-using-recommendation-system
 ```
 
 ### 2) Install dependencies
