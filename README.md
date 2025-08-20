@@ -78,14 +78,6 @@ jupyter notebook notebooks/market-basket-analysis-using-recommendation-system.ip
 
 ---
 
-## 📦 Requirements
-Install via:
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ## 🙌 Author
 **Md Tauhidul Islam**  
 [LinkedIn](www.linkedin.com/in/tauhidul-islam) 
