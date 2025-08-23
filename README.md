@@ -80,4 +80,4 @@ jupyter notebook notebooks/market-basket-analysis-using-recommendation-system.ip
 
 ## 🙌 Author
 **Md Tauhidul Islam**  
-[LinkedIn](www.linkedin.com/in/tauhidul-islam) 
+[LinkedIn](https://www.linkedin.com/in/tauhidul-islam) 
