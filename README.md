@@ -28,7 +28,9 @@ This repository demonstrates an end-to-end workflow for MBA and recommendation b
 ## 🧠 Key Concepts
 
 **Co-occurrence matrix:** Identifies items frequently purchased together
+
 **Collaborative filtering:** Uses item similarity to suggest related products
+
 **Recommendation function:** Returns “people who bought X also bought Y”
 
 ---
