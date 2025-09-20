@@ -1,83 +1,50 @@
-# Market Basket Analysis with Recommendation System
+# Market Basket Analysis with Recommendation System  
 
-This project explores **Market Basket Analysis (MBA)** to discover item associations from transaction data and uses those insights to power a simple **recommendation system**. The notebook walks through data preparation, exploratory analysis, collaborative filtering, and generating actionable product recommendations.
-
----
-
-## 🔍 Problem Statement
-Retailers and e-commerce platforms want to understand which products are frequently purchased together so they can:
-- Improve cross-selling and bundling
-- Optimize shelf layout and promotions
-- Personalize product recommendations
-
-This repo demonstrates an end-to-end MBA workflow using Python.
+This project explores **Market Basket Analysis (MBA)** and demonstrates how transactional data can be transformed into actionable insights through a **collaborative filtering–based recommendation system**. The notebook covers data preparation, exploratory analysis, co-occurrence filtering, and generating product suggestions.  
 
 ---
 
-## ✨ What’s Inside
-- Clean & transform transaction data into a basket format
-- Compute key MBA metrics: **support**, **confidence**, **lift**
-- Visualize item frequencies and rule relationships
-- Build a lightweight **recommendation function** based on learned associations
-- Evaluate rules and sanity-check recommendations
+## 🔍 Problem Statement  
+Retailers and e-commerce platforms often want to know: *“Which products are likely to be purchased together?”*  
+
+By answering this, they can:  
+- Improve **cross-selling and bundling**  
+- Optimise **shelf layout and promotions**  
+- Personalise **product recommendations**  
+
+This repository demonstrates an end-to-end workflow for MBA and recommendation building using Python.  
 
 ---
 
-## 📁 Repository Structure
-```
-.
+## ✨ What’s Inside  
+- Clean and transform transaction data into a **basket format**  
+- Analyse item frequencies and co-occurrence patterns  
+- Implement a **collaborative filtering recommendation system**  
+- Generate and sanity-check product recommendations  
+- Visualise top-selling items and co-purchase relationships  
+
+---
+
+## 📁 Repository Structure  
+
 ├── notebooks/
-│   └── market-basket-analysis-using-recommendation-system.ipynb
+│ └── market-basket-analysis-using-recommendation-system.ipynb
 ├── requirements.txt
 └── README.md
-```
-
-> Put your dataset (e.g., `data/transactions.csv`) under a `data/` folder and update paths in the notebook if needed.
-
----
-
-## 🚀 Getting Started
-
-### 1) Clone the repo
-```bash
-git clone https://github.com/tauhid6069/market-basket-analysis-using-recommendation-system.git
-cd market-basket-analysis-using-recommendation-system
-```
-
-### 2) Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3) Launch the notebook
-```bash
-jupyter notebook notebooks/market-basket-analysis-using-recommendation-system.ipynb
-```
 
 ---
 
 ## 🧠 Key Concepts
-- **Support**: Frequency of an itemset in all transactions  
-- **Confidence**: Likelihood of item B being purchased when item A is purchased  
-- **Lift**: How much more likely A and B occur together than if independent  
+
+**Co-occurrence matrix:** Identifies items frequently purchased together
+**Collaborative filtering:** Uses item similarity to suggest related products
+**Recommendation function:** Returns “people who bought X also bought Y”
 
 ---
 
 ## 📊 Typical Outputs
-- Top-N frequent items and item pairs
-- Association rules table with support, confidence, and lift
-- Plots of item frequencies / rule strengths
-- A simple `recommend(items)` helper that returns “people who bought X also bought Y”
 
----
+- Top-N most frequent items
+- Item co-occurrence heatmaps / frequency plots
+- Product recommendation lists for given inputs
 
-## 🧪 Evaluation & Sanity Checks
-- Validate rules with **lift > 1**
-- Hold-out or time-based split to check recommendation quality (optional)
-- Manual inspection of popular item bundles
-
----
-
-## 🙌 Author
-**Md Tauhidul Islam**  
-[LinkedIn](https://www.linkedin.com/in/tauhidul-islam) 
