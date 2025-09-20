@@ -25,15 +25,6 @@ This repository demonstrates an end-to-end workflow for MBA and recommendation b
 
 ---
 
-## 📁 Repository Structure  
-
-├── notebooks/
-│ └── market-basket-analysis-using-recommendation-system.ipynb
-├── requirements.txt
-└── README.md
-
----
-
 ## 🧠 Key Concepts
 
 **Co-occurrence matrix:** Identifies items frequently purchased together
