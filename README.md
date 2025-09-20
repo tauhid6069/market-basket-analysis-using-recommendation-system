@@ -1,6 +1,6 @@
 # Market Basket Analysis with Recommendation System
 
-This project explores **Market Basket Analysis (MBA)** to discover item associations from transaction data and uses those insights to power a simple **recommendation system**. The notebook walks through data preparation, exploratory analysis, association rule mining concepts (support, confidence, lift), and generating actionable product recommendations.
+This project explores **Market Basket Analysis (MBA)** to discover item associations from transaction data and uses those insights to power a simple **recommendation system**. The notebook walks through data preparation, exploratory analysis, collaborative filtering, and generating actionable product recommendations.
 
 ---
 
